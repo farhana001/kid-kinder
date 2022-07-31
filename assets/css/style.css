@@ -14,6 +14,50 @@ body{
     margin: 0px auto;
     display: flex;
 }
+.title{
+    color: #17A2B8;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.sub-title{
+    color: #06394E;
+    margin: 0px;
+    font-family: 'Handlee', cursive;
+}
+.article{
+    color: #666;
+    font-weight: 600;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+.rounded{
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: #138496;
+    border-color: #138496;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    /* width: 20%; */
+    text-align: center;
+}
+.btn:hover{
+    background: #00394f;
+    border-color: #00394f;
+}
+.d-block{
+    display: block;
+}
 /* common end */
 /* nav area start */
 nav{
@@ -197,3 +241,96 @@ header{
     font-family: 'Nunito', sans-serif;
 }
 /* services end */
+
+/* about-us start  */
+.about-us{
+    padding-bottom: 70px;
+}
+.about-us .about-us-poster{
+    width: 40%;
+}
+.about-us .about-us-content{
+    width: 60%;
+    padding: 0px 0px 0px 20px;  
+    align-self: center; 
+}
+.about-us .about-us-content h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.about-us .about-us-content p{
+    margin-bottom: 20PX;
+}
+.about-content-footer{
+    display: flex;
+}
+.about-footer-poster{
+    width: 30%;
+}
+.about-footer-content{
+    width: 70%;
+}
+.about-footer-content ul{
+    margin: 0px;
+}
+.about-footer-content li{
+    color: #666;
+    padding: 10px 0px;
+    font-weight: 600;
+    list-style: none;
+    border-top: 1px solid #dee2e6;
+    font-family: 'Nunito', sans-serif;
+}
+.about-footer-content li:last-child{
+    border-bottom: 1px solid #dee2e6;
+}
+.about-footer-content i{
+    color: #29A2B7;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+/* about-us end  */
+
+/* booking area start  */
+.booking-area{
+    padding-bottom: 70px;
+}
+.booking-content{
+    width: 60%;
+}
+.booking-form{
+    width: 40%;
+}
+.booking-form .sub-title{
+    background: #06394E;
+    color: #fff;
+    padding: 30px;
+    font-size: 40px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.booking-form form{
+    background: #29A2B7;
+    padding: 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+.booking-form form input.input-field{
+    width: 90%;
+}
+.booking-form form .input-field{
+    color: #666;
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+.booking-form form .input-field.btn{
+    background: #06394E;
+    color: #fff;
+    cursor: pointer;
+}
+/* booking area end  */
