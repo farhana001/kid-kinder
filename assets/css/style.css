@@ -6,19 +6,21 @@ font-family: 'Nunito', sans-serif; */
 body{
     margin: 0px;
 }
-.conatiner-fluid{
+.container-fluid{
     width: 100%;
 }
 .container{
-    width: 95%;
+    width: 90%;
     margin: 0px auto;
+    display: flex;
 }
 /* common end */
 /* nav area start */
 nav{
     background: #F8F9FA;
-    padding: 10px 70px;
-    display: flex;
+    padding: 10px 0px;
+}
+nav > .container{
     justify-content: space-between;
 }
 /* logo start */
@@ -114,9 +116,8 @@ nav{
 
 /* header start */
 header{
-    display: flex;
     background: #3a96a7;
-    padding: 30px 70px 0px 70px;
+    padding: 30px 0px 0px 0px;
 }
 .header-content{
     width: 50%;
