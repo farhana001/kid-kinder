@@ -48,7 +48,6 @@ img{
     margin: 20px 0px 0px 0px;
     padding: 15px 30px;
     border-radius: 30px;
-    /* width: 20%; */
     text-align: center;
 }
 .btn:hover{
@@ -294,13 +293,13 @@ header{
 
 /* booking area start  */
 .booking-area{
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 .booking-content{
-    width: 60%;
+    width: 55%;
 }
 .booking-form{
-    width: 40%;
+    width: 45%;
 }
 .booking-form .sub-title{
     background: #06394E;
@@ -333,4 +332,30 @@ header{
     color: #fff;
     cursor: pointer;
 }
+.booking-content{
+    padding-right: 30px;
+}
+.booking-content h2{
+    font-size: 40px;
+    margin: 30px 0px;
+}
+.booking-content p{
+    line-height: 2.0;
+}
+.booking-content li{
+    color: #666;
+    padding: 10px 0px;
+    font-weight: 600;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+.booking-content i{
+    color: #29A2B7;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.booking-content .btn{
+    margin: 40px 0px 0px 40px;
+}
+
 /* booking area end  */
